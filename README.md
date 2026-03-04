@@ -1,11 +1,11 @@
 💡软件设计初衷：
 
-《AcoustiCore 影院声学评估系统》旨在打破传统家庭影院设计中“唯经验论”与“盲目堆料”的行业盲区。专为顶级定制安装集成商打造，依托严谨的物理代数模型，在方案设计阶段即可精准前瞻系统在实际空间中的极限声压表现。彻底杜绝因推力不足导致的削波失真与设备损毁，确保最终交付满足 THX 与 Dolby Reference（主声道 105dB / 超低频 115dB）的苛刻参考级标准。
+《AcoustiCore 影院声学评估系统》旨在打破传统家庭影院设计中“唯经验论”与“盲目堆料”的行业盲区。专为定制安装集成商和发烧友打造，依托严谨的物理代数模型，在方案设计阶段即可精准前瞻系统在实际空间中的极限声压表现。彻底杜绝因推力不足导致的削波失真与设备损毁，确保最终交付满足 THX 与 Dolby Reference（主声道 105dB / 超低频 115dB）的苛刻参考级标准。
 
 ⚙️核心产品特色：
 
 • 双轨解算引擎： 将全频主声道系统与低音炮系统完全物理隔离，采用两套独立的声学模型进行极值推演。
-• 多炮组合叠加引擎： 业内首创的多炮聚合计算。完美支持不同品牌、不同尺寸、不同摆位（如墙角放置搭配近场打底）的多炮混合搭配。系统独立演算每只炮的能量后，进行严密的物理叠加运算。
+• 多炮组合叠加引擎： 多炮聚合计算。完美支持不同品牌、不同尺寸、不同摆位（如墙角放置搭配近场打底）的多炮混合搭配。系统独立演算每只炮的能量后，进行严密的物理叠加运算。
 • 14年全系 AVR 数据库： 内置 2010 年至今的主流合并机数据。底层已将官方宣发的注水功率，严格剥离并折算为全景声全频并发真实推力 (ACD)。
 • 削波失真红线预警： 实时侦测功放推力与音箱承受极限的匹配度，防患于未然。
 
@@ -24,11 +24,14 @@
 
 💡Original intention of software design:
 
-The AcoustiCore Cinema Acoustic Evaluation System aims to break through the industry blind spots of "empiricism" and "blind material stacking" in traditional home theater design. Specifically designed for top-tier custom installation integrators, it relies on a rigorous physical algebraic model to accurately predict the system's ultimate sound pressure performance in real-world spaces during the design phase. This completely eliminates clipping distortion and equipment damage caused by insufficient power, ensuring that the final delivery meets the stringent reference-level standards of THX and Dolby Reference (105dB for main channels / 115dB for ultra-low frequencies). 
+The AcoustiCore Cinema Acoustic Evaluation System aims to break through the industry blind spots of "empiricism only" and "blind component stacking" in traditional home theater design. Specifically designed for custom installation integrators and audio enthusiasts, it relies on a rigorous physical algebraic model to accurately predict the system's ultimate sound pressure performance in real-world spaces during the design phase. It completely eliminates clipping distortion and equipment damage caused by insufficient power, ensuring that the final delivery meets the stringent reference-level standards of THX and Dolby Reference (105dB for main channels / 115dB for ultra-low frequencies). 
 
 ⚙️ Core Product Features:
 
-• Dual-track Solver Engine: Physically separates the full-frequency main channel system from the subwoofer system completely, and uses two independent acoustic models for extreme value deduction. • Multi-subwoofer Combination and Superposition Engine: The industry's first multi-subwoofer aggregation calculation. It perfectly supports the mixed combination of multiple subwoofers of different brands, sizes, and placements (such as corner placement combined with near-field bottoming). After the system independently calculates the energy of each subwoofer, it performs rigorous physical superposition calculations. • 14-year Full-range AVR Database: Built-in data of mainstream integrated amplifiers from 2010 to date. The underlying layer has strictly stripped and converted the inflated power officially promoted into the true all-channel full-frequency concurrent thrust (ACD) for Dolby Atmos. • Clipping Distortion Red Line Warning: Real-time detection of the matching degree between the amplifier's thrust and the speaker's bearing limit to prevent problems before they occur.
+• Dual-track Solver Engine: Completely physically separates the full-frequency main channel system from the subwoofer system, and uses two independent acoustic models for extreme value deduction.
+• Multi-Subwoofer Combination and Superposition Engine: Aggregate calculation of multiple subwoofers. Perfectly supports the mixed combination of multiple subwoofers of different brands, sizes, and placements (such as corner placement combined with near-field subwoofers). After the system independently calculates the energy of each subwoofer, it performs rigorous physical superposition calculations.
+• 14-year AVR Database: Built-in data of mainstream integrated amplifiers from 2010 to date. The underlying layer has strictly separated and converted the inflated power officially promoted into the true all-channel full-frequency concurrent thrust (ACD) for Dolby Atmos. 
+• Clipping distortion red line warning: Real-time detection of the matching degree between the amplifier's thrust and the speaker's load limit to prevent problems before they occur.
 
 🚀Step-by-step operation guide:
 
