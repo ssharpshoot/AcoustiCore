@@ -21,3 +21,18 @@
 软件Bug反馈、数据添加及咨询影院设计方案，请扫码添加作者微信；
 
 <img width="200" height="200" alt="cbaa126d-992e-46b3-8697-87d19c0a50bf" src="https://github.com/user-attachments/assets/7e6bc80d-525d-48bd-a761-006c83a8ed3a" />
+
+💡Original intention of software design:
+
+The AcoustiCore Cinema Acoustic Evaluation System aims to break through the industry blind spots of "empiricism" and "blind material stacking" in traditional home theater design. Specifically designed for top-tier custom installation integrators, it relies on a rigorous physical algebraic model to accurately predict the system's ultimate sound pressure performance in real-world spaces during the design phase. This completely eliminates clipping distortion and equipment damage caused by insufficient power, ensuring that the final delivery meets the stringent reference-level standards of THX and Dolby Reference (105dB for main channels / 115dB for ultra-low frequencies). 
+
+⚙️ Core Product Features:
+
+• Dual-track Solver Engine: Physically separates the full-frequency main channel system from the subwoofer system completely, and uses two independent acoustic models for extreme value deduction. • Multi-subwoofer Combination and Superposition Engine: The industry's first multi-subwoofer aggregation calculation. It perfectly supports the mixed combination of multiple subwoofers of different brands, sizes, and placements (such as corner placement combined with near-field bottoming). After the system independently calculates the energy of each subwoofer, it performs rigorous physical superposition calculations. • 14-year Full-range AVR Database: Built-in data of mainstream integrated amplifiers from 2010 to date. The underlying layer has strictly stripped and converted the inflated power officially promoted into the true all-channel full-frequency concurrent thrust (ACD) for Dolby Atmos. • Clipping Distortion Red Line Warning: Real-time detection of the matching degree between the amplifier's thrust and the speaker's bearing limit to prevent problems before they occur.
+
+🚀Step-by-step operation guide:
+
+1. Define the physical space: Select the airtightness of the room at the top of the page, input the length, width, and height to calculate the volume, and set the core [Listening Distance at the Emperor's Position].
+2. Lightning Protection Matching for the Main System: Enter the main channel panel, input the speaker sensitivity and impedance. Select the amplifier model from the drop-down box. If you encounter an uncommon model, you can select [Factory-Nominal Power Real Conversion Station] to input the official parameters, and the system will automatically squeeze out the moisture.
+3. Subwoofer Array Survey: Switch to the subwoofer panel. You can click "Add Subwoofer Group" to build combinations of different specifications. Calculate based on physical dimensions or directly enter the measured extreme values to configure the respective boundary positions and quantities.
+4. Generate Reports and Interact with Charts: Drag the slider below the chart to detect predicted sound pressure at any distance, click "Return" to bounce back to your preset Emperor's Position. Finally, click the bottom button to generate an evaluation report with a highly commercial feel in one click.
