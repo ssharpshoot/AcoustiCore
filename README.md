@@ -1,41 +1,110 @@
-💡软件设计初衷：
+# AcoustiCore 影院配置助手
 
-《AcoustiCore 影院声学评估系统》旨在打破传统家庭影院设计中“唯经验论”与“盲目堆料”的行业盲区。专为定制安装集成商和发烧友打造，依托严谨的物理代数模型，在方案设计阶段即可精准前瞻系统在实际空间中的极限声压表现。彻底杜绝因推力不足导致的削波失真与设备损毁，确保最终交付满足 THX 与 Dolby Reference（主声道 105dB / 超低频 115dB）的苛刻参考级标准。
+面向客户自助选型与影院销售演示的单页配置工具。它用可追溯的规划计算，帮助用户理解音箱、功放和低音炮配置的能力差距，以及一只与多只低音炮分别解决什么问题。
 
-⚙️核心产品特色：
+当前版本：`3.1.0`；计算模型：`acousticore-screening-v2`。
 
-• 双轨解算引擎： 将全频主声道系统与低音炮系统完全物理隔离，采用两套独立的声学模型进行极值推演。
-• 多炮组合叠加引擎： 多炮聚合计算。完美支持不同品牌、不同尺寸、不同摆位（如墙角放置搭配近场打底）的多炮混合搭配。系统独立演算每只炮的能量后，进行严密的物理叠加运算。
-• 14年全系 AVR 数据库： 内置 2010 年至今的主流合并机数据。底层已将官方宣发的注水功率，严格剥离并折算为全景声全频并发真实推力 (ACD)。
-• 削波失真红线预警： 实时侦测功放推力与音箱承受极限的匹配度，防患于未然。
+## 使用路径
 
-🚀保姆级操作步骤：
+1. 选择体验目标：日常电影、沉浸影院或高动态影院。
+2. 输入房间尺寸、听音距离、音箱灵敏度、功放功率和低音炮型号/数量。
+3. 查看当前能力范围、最关键短板，以及调整前后的变化。
+4. 需要核查口径时展开“查看数据依据”；客户报告可打印，并附应用版本、数据记录、假设、风险和现场验证项。
+5. 项目可导出为 `ProjectFileV2` JSON，在另一台电脑重新导入；自定义设备与低音炮随项目文件一并保存。
 
-1. 界定物理空间： 在页面顶部选择房间的密闭度，输入长宽高推算容积，并设定核心的【皇帝位听音距离】。
-2. 主系统防雷匹配： 进入主声道面板，输入音箱灵敏度与阻抗。在下拉框选择功放型号。若遇冷门型号，可选择【厂商标称功率真实换算台】输入官方参数，由系统自动挤干水分。
-3. 低音炮阵列勘测： 切换至低音炮面板。可点击“添加低音炮组”搭建不同规格的组合。依据物理尺寸推算或直接录入实测极值，配置各自的边界摆位与数量。
-4. 生成报告与图表互动： 拖动图表下方滑块可侦测任意距离的预测声压，点击“归位”即可弹回您预设的皇帝位。最后点击底部按钮，一键生成极具商业质感的评估报告。
+体验档位是系统峰值能力目标，不是建议持续播放音量。其中“日常电影”和“沉浸影院”是 AcoustiCore 产品预设，不是行业统一标准。
 
-🤝联系作者：
+## 计算边界
 
-软件Bug反馈、数据添加及咨询影院设计方案，请扫码添加作者微信；
+主声道规划值采用：
 
-<img width="200" height="200" alt="cbaa126d-992e-46b3-8697-87d19c0a50bf" src="https://github.com/user-attachments/assets/7e6bc80d-525d-48bd-a761-006c83a8ed3a" />
+```text
+灵敏度（1W/1m） + 10 × log10(可用功率) - 20 × log10(听音距离)
+```
 
-💡Original intention of software design:
+- 支持 `1W/1m` 与 `2.83V/1m` 灵敏度标注，电压口径按声明阻抗换算。
+- 可追溯持续功率使用默认 `±3 dB` 规划余量；厂商规格或经验折算使用 `±5 dB`。这些数值是规划 allowance，不是统计置信区间。
+- 可填写音箱持续功率和厂家最大 SPL，理论结果不会超过已声明的设备上限。
+- 不使用固定房间衰减、分频奖励、4 Ω 功率倍增或“功率翻倍即安全”等简化规则。
+- 结果是方案阶段估算，不包含音箱功率压缩、阻抗曲线、指向性、限幅、房间响应或实际功放动态能力。
 
-The AcoustiCore Cinema Acoustic Evaluation System aims to break through the industry blind spots of "empiricism only" and "blind component stacking" in traditional home theater design. Specifically designed for custom installation integrators and audio enthusiasts, it relies on a rigorous physical algebraic model to accurately predict the system's ultimate sound pressure performance in real-world spaces during the design phase. It completely eliminates clipping distortion and equipment damage caused by insufficient power, ensuring that the final delivery meets the stringent reference-level standards of THX and Dolby Reference (105dB for main channels / 115dB for ultra-low frequencies). 
+低音炮容量只来自所选的一条同口径实测记录：
 
-⚙️ Core Product Features:
+- 客户视图只读取 `primaryTestId`；不同测试模式未人工确认时不生成客户默认容量。
+- 销售模式可临时切换替代测试，收起后恢复客户主记录，不会改写数据库。
+- CEA-2010-A、CTA-2010-B 与 CTA-2010-C 分组显示，禁止混排或画在同一比较基线上。
+- 多炮默认按保守能量叠加估算，每翻倍约 `+3 dB`；不添加未经验证的固定房间增益。
+- 没有实测数据时可启用 `legacy-size-power-v1` 旧规格公式，保留一个单值供销售初筛；该值永久为 `legacy_proxy / provisional`，不按频点输出，也不能产生通过、达标或排名结论。
 
-• Dual-track Solver Engine: Completely physically separates the full-frequency main channel system from the subwoofer system, and uses two independent acoustic models for extreme value deduction.
-• Multi-Subwoofer Combination and Superposition Engine: Aggregate calculation of multiple subwoofers. Perfectly supports the mixed combination of multiple subwoofers of different brands, sizes, and placements (such as corner placement combined with near-field subwoofers). After the system independently calculates the energy of each subwoofer, it performs rigorous physical superposition calculations.
-• 14-year AVR Database: Built-in data of mainstream integrated amplifiers from 2010 to date. The underlying layer has strictly separated and converted the inflated power officially promoted into the true all-channel full-frequency concurrent thrust (ACD) for Dolby Atmos. 
-• Clipping distortion red line warning: Real-time detection of the matching degree between the amplifier's thrust and the speaker's load limit to prevent problems before they occur.
+低频结论分为 `screening_pass`、`screening_shortfall`、`provisional`、`insufficient`。只有来源链接、许可状态、人工审核和六频点口径都完整的 `verified_measurement` 才能产生前两类结果；当前历史数据因来源治理尚未闭环，默认只产生暂定结果。
 
-🚀Step-by-step operation guide:
+最终低频、相位、延时、EQ 与多座位一致性必须通过现场测量确认。
 
-1. Define the physical space: Select the airtightness of the room at the top of the page, input the length, width, and height to calculate the volume, and set the core [Listening Distance at the Emperor's Position].
-2. Lightning Protection Matching for the Main System: Enter the main channel panel, input the speaker sensitivity and impedance. Select the amplifier model from the drop-down box. If you encounter an uncommon model, you can select [Factory-Nominal Power Real Conversion Station] to input the official parameters, and the system will automatically squeeze out the moisture.
-3. Subwoofer Array Survey: Switch to the subwoofer panel. You can click "Add Subwoofer Group" to build combinations of different specifications. Calculate based on physical dimensions or directly enter the measured extreme values to configure the respective boundary positions and quantities.
-4. Generate Reports and Interact with Charts: Drag the slider below the chart to detect predicted sound pressure at any distance, click "Return" to bounce back to your preset Emperor's Position. Finally, click the bottom button to generate an evaluation report with a highly commercial feel in one click.
+## 本地运行
+
+需要 Node.js 20 或更高版本，无第三方运行依赖。
+
+Windows 用户可直接双击项目根目录中的 `启动本地预览.cmd`，它会启动本地服务并用默认浏览器打开页面。
+
+如果需要交给客户离线使用，可直接双击 `dist/AcoustiCore-影院配置助手.html`。该文件已内嵌页面样式、计算逻辑和低音炮目录，不需要安装 Node.js，也不需要启动本地服务。
+
+```powershell
+npm run dev -- --host 127.0.0.1 --port 4173
+```
+
+浏览器打开 `http://127.0.0.1:4173`。
+
+## 测试
+
+```powershell
+npm test
+```
+
+重新生成单 HTML 交付文件：
+
+```powershell
+npm run build:single
+```
+
+测试覆盖体验档位、主声道计算与反算、灵敏度口径、多炮叠加、主记录唯一性、配置差异拦截、标准分组、无实测型号、自定义型号和数字框/滑杆同步。
+
+## 低音炮数据更新
+
+版本化目录由 V2.5 源数据生成：
+
+```powershell
+npm run data:build -- "完整的源 data.js 路径"
+```
+
+生成文件：
+
+- `data/subwoofer-catalog-v2.5.js`：静态网页使用的统一目录。
+- `data/primary-test-review.json`：多实测型号的建议与人工确认清单。
+
+当前目录包含 2,224 条源记录、2,032 个规范化型号，其中 93 个同型号具有多条可比实测记录。这 93 个型号全部不再自动设置客户主记录，必须在 `data/primary-test-review.json` 中完成人工审核。第三方数据边界见 [THIRD_PARTY_DATA.md](./THIRD_PARTY_DATA.md)。
+
+## 音箱与功放设备库
+
+- 客户模式只列出 `approved` 记录；销售模式可以查看本机草稿和待审核记录。
+- 支持 CSV / JSON 导入、本机存储与 JSON 导出。
+- CSV 模板可在设备库弹窗直接下载。
+- XLSX 模板位于 `assets/templates/acousticore-device-import-template.xlsx`，填写后另存为 UTF-8 CSV 即可导入网页。
+- 功放功率必须记录阻抗、同时驱动声道数和 THD 条件；音箱数据必须区分灵敏度口径、持续功率和厂家最大 SPL。
+
+## 部署
+
+项目保持纯静态结构，无账户、云数据库或后台服务。本机数据保存在浏览器 `localStorage`，也可导出备份。
+
+```powershell
+npm run build:pages
+```
+
+`.github/workflows/pages.yml` 会在 `main` 分支推送时运行测试、生成 `dist/pages` 并部署 GitHub Pages。线上页面显示应用版本；发布后应核对版本、核心流程、控制台错误和移动端布局。
+
+代码当前按保留所有权方式发布，第三方数据权利与代码许可证相互独立，详见 [LICENSE](./LICENSE)。
+
+## 联系作者
+
+软件问题、数据补充及影院设计咨询，可联系作者：
+
+<img width="200" height="200" alt="联系作者二维码" src="https://github.com/user-attachments/assets/7e6bc80d-525d-48bd-a761-006c83a8ed3a" />

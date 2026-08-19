@@ -1,0 +1,14 @@
+{
+  "name": "acousticore-config-assistant",
+  "version": "3.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "pretest": "node tools/build-single-html.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "data:build": "node tools/build-subwoofer-catalog.mjs",
+    "build:single": "node tools/build-single-html.mjs",
+    "build:pages": "node tools/build-pages.mjs"
+  }
+}

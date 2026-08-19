@@ -1,0 +1,2980 @@
+{
+  "meta": {
+    "schemaVersion": "2.0.0",
+    "catalogVersion": "2.5-acousticore-v3.1",
+    "generatedAt": "2026-08-19T09:42:06.865Z",
+    "sourceFile": "data.js",
+    "sourceRecordCount": 2224,
+    "sourceGeneratedAt": "2026-08-03T15:14:45",
+    "modelCount": 2032,
+    "measuredModelCount": 288,
+    "specOnlyModelCount": 1744,
+    "multiTestReviewCount": 93,
+    "separatedStandardCount": 5,
+    "blockedPrimaryCount": 93
+  },
+  "reviewQueue": [
+    {
+      "modelKey": "Aperion Audio||Bravus II 12D",
+      "brand": "Aperion Audio",
+      "model": "Bravus II 12D",
+      "suggestedTestId": "cea-a-58",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-58",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-59",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Arendal||1723 Subwoofer 1S",
+      "brand": "Arendal",
+      "model": "1723 Subwoofer 1S",
+      "suggestedTestId": "cea-a-68",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-68",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-69",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Arendal||1723 Subwoofer 1V",
+      "brand": "Arendal",
+      "model": "1723 Subwoofer 1V",
+      "suggestedTestId": "cea-a-70",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-70",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-71",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Arendal||1723 Subwoofer 2S",
+      "brand": "Arendal",
+      "model": "1723 Subwoofer 2S",
+      "suggestedTestId": "cea-a-73",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-73",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-74",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Arendal||1723 Subwoofer 2V",
+      "brand": "Arendal",
+      "model": "1723 Subwoofer 2V",
+      "suggestedTestId": "cea-a-75",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-75",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-76",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Arendal||1961 Subwoofer 1S",
+      "brand": "Arendal",
+      "model": "1961 Subwoofer 1S",
+      "suggestedTestId": "cea-a-78",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-78",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-79",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-80",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Arendal||1961 Subwoofer 1V",
+      "brand": "Arendal",
+      "model": "1961 Subwoofer 1V",
+      "suggestedTestId": "cea-a-82",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-81",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-82",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-83",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "BIC America||PL-200II",
+      "brand": "BIC America",
+      "model": "PL-200II",
+      "suggestedTestId": "cea-a-232",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-232",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-233",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "BIC America||PL-300",
+      "brand": "BIC America",
+      "model": "PL-300",
+      "suggestedTestId": "cea-a-234",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-234",
+          "standard": "CEA-2010-A",
+          "testMode": "Port Plugged, Bass Boost",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-235",
+          "standard": "CEA-2010-A",
+          "testMode": "Port Open, Bass Boost",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-236",
+          "standard": "CEA-2010-A",
+          "testMode": "Port Plugged, Max Output",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-237",
+          "standard": "CEA-2010-A",
+          "testMode": "Port Open, Max Output",
+          "source": "Audioholics",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Bowers & Wilkins (B&W)||ASW610XP",
+      "brand": "Bowers & Wilkins (B&W)",
+      "model": "ASW610XP",
+      "suggestedTestId": "cea-a-286",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-286",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-287",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Cadence Sound||CSX-15 MKII",
+      "brand": "Cadence Sound",
+      "model": "CSX-15 MKII",
+      "suggestedTestId": "cea-a-318",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-318",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-319",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Chase Home Theater||VS18.1",
+      "brand": "Chase Home Theater",
+      "model": "VS18.1",
+      "suggestedTestId": "cea-a-395",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-395",
+          "standard": "CEA-2010-A",
+          "testMode": "Passive with K10 Bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-396",
+          "standard": "CEA-2010-A",
+          "testMode": "With Sub1",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Danley Sound Labs||DTS10",
+      "brand": "Danley Sound Labs",
+      "model": "DTS10",
+      "suggestedTestId": "cea-a-418",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-418",
+          "standard": "CEA-2010-A",
+          "testMode": "Driver: 2 x TC Sounds - LMSR-12",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-419",
+          "standard": "CEA-2010-A",
+          "testMode": "Driver: 2 x Danley Sound Labs - DSL-12",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Dayton Audio||SUB-1200",
+      "brand": "Dayton Audio",
+      "model": "SUB-1200",
+      "suggestedTestId": "cea-a-425",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-425",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-426",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Dayton Audio||SUB-1500",
+      "brand": "Dayton Audio",
+      "model": "SUB-1500",
+      "suggestedTestId": "cea-a-428",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-427",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-428",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "ELAC||IW-S10EQ in-wall",
+      "brand": "ELAC",
+      "model": "IW-S10EQ in-wall",
+      "suggestedTestId": "cea-a-500",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-500",
+          "standard": "CEA-2010-A",
+          "testMode": "1.32cf box",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-501",
+          "standard": "CEA-2010-A",
+          "testMode": "2.08cf box",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Elemental Designs||A7S-450",
+      "brand": "Elemental Designs",
+      "model": "A7S-450",
+      "suggestedTestId": "cea-a-520",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-520",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-521",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Emotiva||X-Ref 12",
+      "brand": "Emotiva",
+      "model": "X-Ref 12",
+      "suggestedTestId": "cea-a-537",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-537",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-538",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Epik Subwoofers||Empire",
+      "brand": "Epik Subwoofers",
+      "model": "Empire",
+      "suggestedTestId": "cea-a-553",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-553",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-554",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Funk Audio||Classic 18.0",
+      "brand": "Funk Audio",
+      "model": "Classic 18.0",
+      "suggestedTestId": "cea-a-609",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-609",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-610",
+          "standard": "CEA-2010-A",
+          "testMode": "120v",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-611",
+          "standard": "CEA-2010-A",
+          "testMode": "Passive with k10 bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-612",
+          "standard": "CEA-2010-A",
+          "testMode": "240v",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-613",
+          "standard": "CEA-2010-A",
+          "testMode": "2013 version",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-614",
+          "standard": "CEA-2010-A",
+          "testMode": "(2013 version / PASSIVE) Passive with K10 amplifier bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||ULS-15 MK2",
+      "brand": "HSU Research",
+      "model": "ULS-15 MK2",
+      "suggestedTestId": "cea-a-744",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-744",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-745",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-1 MK2",
+      "brand": "HSU Research",
+      "model": "VTF-1 MK2",
+      "suggestedTestId": "cea-a-747",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-747",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-748",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 5
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-1 MK3",
+      "brand": "HSU Research",
+      "model": "VTF-1 MK3",
+      "suggestedTestId": "cea-a-749",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-749",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-750",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-751",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-752",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-753",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 5
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-15H",
+      "brand": "HSU Research",
+      "model": "VTF-15H",
+      "suggestedTestId": "cea-a-754",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-754",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open, eq2",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-755",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open, eq1",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-756",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed port, eq1",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-757",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed port",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-758",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-759",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-760",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open, EQ2",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-761",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open, EQ1",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-762",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-763",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-15H MK2",
+      "brand": "HSU Research",
+      "model": "VTF-15H MK2",
+      "suggestedTestId": "cea-a-764",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-764",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported max output mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-765",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported max headroom mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-766",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed max headroom mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-767",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-768",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-2 MK4",
+      "brand": "HSU Research",
+      "model": "VTF-2 MK4",
+      "suggestedTestId": "cea-a-772",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-772",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-773",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-2 MK5",
+      "brand": "HSU Research",
+      "model": "VTF-2 MK5",
+      "suggestedTestId": "cea-a-777",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-774",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open only",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-775",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-776",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed port",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-777",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported max output mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-778",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported max headroom mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-779",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed max headroom mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-780",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-781",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-3 MK3",
+      "brand": "HSU Research",
+      "model": "VTF-3 MK3",
+      "suggestedTestId": "cea-a-786",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-786",
+          "standard": "CEA-2010-A",
+          "testMode": "MO",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-787",
+          "standard": "CEA-2010-A",
+          "testMode": "ME",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-3 MK4",
+      "brand": "HSU Research",
+      "model": "VTF-3 MK4",
+      "suggestedTestId": "cea-a-789",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-789",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-790",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "HSU Research||VTF-3 MK5 HP",
+      "brand": "HSU Research",
+      "model": "VTF-3 MK5 HP",
+      "suggestedTestId": "cea-a-791",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-791",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-792",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "JL Audio||Dominion d108",
+      "brand": "JL Audio",
+      "model": "Dominion d108",
+      "suggestedTestId": "cea-a-875",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-875",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-876",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "JL Audio||E110",
+      "brand": "JL Audio",
+      "model": "E110",
+      "suggestedTestId": "cea-a-879",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-879",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-880",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "JL Audio||E112",
+      "brand": "JL Audio",
+      "model": "E112",
+      "suggestedTestId": "cea-a-883",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-883",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-884",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "JTR Speakers||Captivator 2400",
+      "brand": "JTR Speakers",
+      "model": "Captivator 2400",
+      "suggestedTestId": "cea-a-906",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-906",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-907",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Klipsch||SW-311",
+      "brand": "Klipsch",
+      "model": "SW-311",
+      "suggestedTestId": "cea-a-1015",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1015",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1016",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "MartinLogan||Dynamo 1500X",
+      "brand": "MartinLogan",
+      "model": "Dynamo 1500X",
+      "suggestedTestId": "cea-a-1139",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1139",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1140",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "MartinLogan||Dynamo 600X",
+      "brand": "MartinLogan",
+      "model": "Dynamo 600X",
+      "suggestedTestId": "cea-a-1146",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1145",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1146",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||12in 150-Watt Powered",
+      "brand": "Monoprice",
+      "model": "12in 150-Watt Powered",
+      "suggestedTestId": "cea-a-1218",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1218",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1219",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith 10\" THX Select",
+      "brand": "Monoprice",
+      "model": "Monolith 10\" THX Select",
+      "suggestedTestId": "cea-a-1221",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1221",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1222",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1223",
+          "standard": "CEA-2010-A",
+          "testMode": "(THX EQ), ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1224",
+          "standard": "CEA-2010-A",
+          "testMode": "(Extended EQ), ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1225",
+          "standard": "CEA-2010-A",
+          "testMode": "(Extended EQ), sealed",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1226",
+          "standard": "CEA-2010-A",
+          "testMode": "(THX EQ), sealed",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1227",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1228",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith 12\" THX Ultra",
+      "brand": "Monoprice",
+      "model": "Monolith 12\" THX Ultra",
+      "suggestedTestId": "cea-a-1229",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1229",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1230",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1231",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1232",
+          "standard": "CEA-2010-A",
+          "testMode": "(Extended EQ), ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1233",
+          "standard": "CEA-2010-A",
+          "testMode": "(THX EQ), ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1234",
+          "standard": "CEA-2010-A",
+          "testMode": "(Extended EQ), sealed",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1235",
+          "standard": "CEA-2010-A",
+          "testMode": "(THX EQ), sealed",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1236",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (1 port)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1237",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (2 ports)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1238",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith 13\" THX Ultra",
+      "brand": "Monoprice",
+      "model": "Monolith 13\" THX Ultra",
+      "suggestedTestId": "cea-a-1239",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1239",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1240",
+          "standard": "CEA-2010-A",
+          "testMode": "THX EQ, ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith 15\" THX Ultra",
+      "brand": "Monoprice",
+      "model": "Monolith 15\" THX Ultra",
+      "suggestedTestId": "cea-a-1244",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1241",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1242",
+          "standard": "CEA-2010-A",
+          "testMode": "3 ports open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1243",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1244",
+          "standard": "CEA-2010-A",
+          "testMode": "3 ports open, THX mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1245",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed, THX mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1246",
+          "standard": "CEA-2010-A",
+          "testMode": "(Extended EQ), ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1247",
+          "standard": "CEA-2010-A",
+          "testMode": "(THX EQ), ported",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1248",
+          "standard": "CEA-2010-A",
+          "testMode": "(Extended EQ), sealed",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1249",
+          "standard": "CEA-2010-A",
+          "testMode": "(THX EQ), sealed",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1250",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (2 ports)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1251",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (3 ports)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1252",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith 16\" THX Ultra",
+      "brand": "Monoprice",
+      "model": "Monolith 16\" THX Ultra",
+      "suggestedTestId": "cea-a-1253",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1253",
+          "standard": "CEA-2010-A",
+          "testMode": "4 ports open / extended EQ",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1254",
+          "standard": "CEA-2010-A",
+          "testMode": "3 ports open / extended EQ",
+          "source": "Audioholics",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith 8\" THX Certified",
+      "brand": "Monoprice",
+      "model": "Monolith 8\" THX Certified",
+      "suggestedTestId": "cea-a-1255",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1255",
+          "standard": "CEA-2010-A",
+          "testMode": "THX Mode",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1256",
+          "standard": "CEA-2010-A",
+          "testMode": "EQ1 Mode",
+          "source": "ErinsAudioCorner",
+          "pointCount": 5
+        },
+        {
+          "testId": "cea-a-1257",
+          "standard": "CEA-2010-A",
+          "testMode": "EQ2 Mode",
+          "source": "ErinsAudioCorner",
+          "pointCount": 4
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith M-10 V2",
+      "brand": "Monoprice",
+      "model": "Monolith M-10 V2",
+      "suggestedTestId": "cea-a-1258",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1258",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1259",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith M-12 V2",
+      "brand": "Monoprice",
+      "model": "Monolith M-12 V2",
+      "suggestedTestId": "cea-a-1260",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1260",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (1 port)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1261",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (2 ports)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1262",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith M-15 V2",
+      "brand": "Monoprice",
+      "model": "Monolith M-15 V2",
+      "suggestedTestId": "cea-a-1263",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1263",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (2 ports)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1264",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported (3 ports)",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1265",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith M-210",
+      "brand": "Monoprice",
+      "model": "Monolith M-210",
+      "suggestedTestId": "cea-a-1266",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1266",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1267",
+          "standard": "CEA-2010-A",
+          "testMode": "Vented",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith M-212",
+      "brand": "Monoprice",
+      "model": "Monolith M-212",
+      "suggestedTestId": "cea-a-1268",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1268",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1269",
+          "standard": "CEA-2010-A",
+          "testMode": "Vented",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||Monolith M-215",
+      "brand": "Monoprice",
+      "model": "Monolith M-215",
+      "suggestedTestId": "cea-a-1270",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1270",
+          "standard": "CEA-2010-A",
+          "testMode": "Vented",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1271",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Monoprice||SW-15",
+      "brand": "Monoprice",
+      "model": "SW-15",
+      "suggestedTestId": "cea-a-1283",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1283",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1284",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "OSD (Optimal Speaker Design)||TreVoce 12 DSP",
+      "brand": "OSD (Optimal Speaker Design)",
+      "model": "TreVoce 12 DSP",
+      "suggestedTestId": "cea-a-1346",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1346",
+          "standard": "CEA-2010-A",
+          "testMode": "DSP OFF",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1347",
+          "standard": "CEA-2010-A",
+          "testMode": "DSP ON",
+          "source": "ErinsAudioCorner",
+          "pointCount": 5
+        }
+      ]
+    },
+    {
+      "modelKey": "Outlaw Audio||LFM-1 EX",
+      "brand": "Outlaw Audio",
+      "model": "LFM-1 EX",
+      "suggestedTestId": "cea-a-1352",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1352",
+          "standard": "CEA-2010-A",
+          "testMode": "25hz",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1353",
+          "standard": "CEA-2010-A",
+          "testMode": "18hz",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1354",
+          "standard": "CEA-2010-A",
+          "testMode": "Both Vents Open",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1355",
+          "standard": "CEA-2010-A",
+          "testMode": "1 Vent Blocked",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Outlaw Audio||Ultra-X12",
+      "brand": "Outlaw Audio",
+      "model": "Ultra-X12",
+      "suggestedTestId": "cea-a-1357",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1357",
+          "standard": "CEA-2010-A",
+          "testMode": "Max output mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1358",
+          "standard": "CEA-2010-A",
+          "testMode": "Max extension mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Outlaw Audio||Ultra-X13",
+      "brand": "Outlaw Audio",
+      "model": "Ultra-X13",
+      "suggestedTestId": "cea-a-1362",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1359",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1360",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1361",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port open",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1362",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1363",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Paradigm||Signature Sub 2",
+      "brand": "Paradigm",
+      "model": "Signature Sub 2",
+      "suggestedTestId": "cea-a-1391",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1391",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1392",
+          "standard": "CEA-2010-A",
+          "testMode": "240v",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Polk Audio||PSW10",
+      "brand": "Polk Audio",
+      "model": "PSW10",
+      "suggestedTestId": "cea-a-1447",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1447",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1448",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 4
+        }
+      ]
+    },
+    {
+      "modelKey": "Power Sound Audio (PSA)||S3600i",
+      "brand": "Power Sound Audio (PSA)",
+      "model": "S3600i",
+      "suggestedTestId": "cea-a-1479",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1479",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1480",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Power Sound Audio (PSA)||XS15SE",
+      "brand": "Power Sound Audio (PSA)",
+      "model": "XS15SE",
+      "suggestedTestId": "cea-a-1526",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1526",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1527",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Power Sound Audio (PSA)||XV15",
+      "brand": "Power Sound Audio (PSA)",
+      "model": "XV15",
+      "suggestedTestId": "cea-a-1530",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1530",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1531",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1532",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Power Sound Audio (PSA)||XV30FSE",
+      "brand": "Power Sound Audio (PSA)",
+      "model": "XV30FSE",
+      "suggestedTestId": "cea-a-1538",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1538",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1539",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Premier Acoustics||PA-150",
+      "brand": "Premier Acoustics",
+      "model": "PA-150",
+      "suggestedTestId": "cea-a-1540",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1540",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1541",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "RBH Sound||SX-12",
+      "brand": "RBH Sound",
+      "model": "SX-12",
+      "suggestedTestId": "cea-a-1647",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1647",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1648",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "RBH Sound||SX-1212PR",
+      "brand": "RBH Sound",
+      "model": "SX-1212PR",
+      "suggestedTestId": "cea-a-1651",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1651",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1652",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Reaction Audio||PS-15X",
+      "brand": "Reaction Audio",
+      "model": "PS-15X",
+      "suggestedTestId": "cea-a-1661",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1661",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1662",
+          "standard": "CEA-2010-A",
+          "testMode": "(Passive) Passive with K10 bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Reaction Audio||PV-15X",
+      "brand": "Reaction Audio",
+      "model": "PV-15X",
+      "suggestedTestId": "cea-a-1663",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1663",
+          "standard": "CEA-2010-A",
+          "testMode": "(Passive) Passive with K10 Bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1664",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "RSL (Rogersound Labs)||Speedwoofer 10S MKII",
+      "brand": "RSL (Rogersound Labs)",
+      "model": "Speedwoofer 10S MKII",
+      "suggestedTestId": "cea-a-1734",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1733",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1734",
+          "standard": "CEA-2010-A",
+          "testMode": "LFE mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1735",
+          "standard": "CEA-2010-A",
+          "testMode": "Music mode, 200Hz xover",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "RSL (Rogersound Labs)||Speedwoofer 12S",
+      "brand": "RSL (Rogersound Labs)",
+      "model": "Speedwoofer 12S",
+      "suggestedTestId": "cea-a-1737",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1736",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1737",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1738",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Rythmik||FV15HP",
+      "brand": "Rythmik",
+      "model": "FV15HP",
+      "suggestedTestId": "cea-a-1754",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1754",
+          "standard": "CEA-2010-A",
+          "testMode": "1 port",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1755",
+          "standard": "CEA-2010-A",
+          "testMode": "2 ports",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1756",
+          "standard": "CEA-2010-A",
+          "testMode": "1 vent blocked",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1757",
+          "standard": "CEA-2010-A",
+          "testMode": "Both vents open",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Rythmik||FV18",
+      "brand": "Rythmik",
+      "model": "FV18",
+      "suggestedTestId": "cea-a-1758",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1758",
+          "standard": "CEA-2010-A",
+          "testMode": "12hz tuning/1 vent blocked",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1759",
+          "standard": "CEA-2010-A",
+          "testMode": "16hz tuning/all vents open",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Rythmik||LV12",
+      "brand": "Rythmik",
+      "model": "LV12",
+      "suggestedTestId": "cea-a-1767",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1767",
+          "standard": "CEA-2010-A",
+          "testMode": "low music mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1768",
+          "standard": "CEA-2010-A",
+          "testMode": "low HT mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1769",
+          "standard": "CEA-2010-A",
+          "testMode": "high mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Sigberg Audio||10D",
+      "brand": "Sigberg Audio",
+      "model": "10D",
+      "suggestedTestId": "cea-a-1796",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1796",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1797",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Sony||SA-CS9",
+      "brand": "Sony",
+      "model": "SA-CS9",
+      "suggestedTestId": "cea-a-1827",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1827",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1828",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 4
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||20-39 PC-Plus",
+      "brand": "SVS",
+      "model": "20-39 PC-Plus",
+      "suggestedTestId": "cea-a-1909",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1909",
+          "standard": "CEA-2010-A",
+          "testMode": "12hz (2 blocked ports)",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1910",
+          "standard": "CEA-2010-A",
+          "testMode": "16hz (1 blocked port)",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1911",
+          "standard": "CEA-2010-A",
+          "testMode": "20hz default",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||3000 Micro",
+      "brand": "SVS",
+      "model": "3000 Micro",
+      "suggestedTestId": "cea-a-1917",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1917",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cta-b-1917",
+          "standard": "CTA-2010-B",
+          "testMode": "原表测试模式",
+          "source": "Nuyes",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1918",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "ErinsAudioCorner",
+          "pointCount": 6
+        },
+        {
+          "testId": "cta-b-1918",
+          "standard": "CTA-2010-B",
+          "testMode": "原表测试模式",
+          "source": "Nuyes",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PB-1000",
+      "brand": "SVS",
+      "model": "PB-1000",
+      "suggestedTestId": "cea-a-1920",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1920",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1921",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PB-2000 PRO",
+      "brand": "SVS",
+      "model": "PB-2000 PRO",
+      "suggestedTestId": "cea-a-1926",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1924",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1925",
+          "standard": "CEA-2010-A",
+          "testMode": "Ported",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1926",
+          "standard": "CEA-2010-A",
+          "testMode": "ports open",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1927",
+          "standard": "CEA-2010-A",
+          "testMode": "ports plugged",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PB-4000",
+      "brand": "SVS",
+      "model": "PB-4000",
+      "suggestedTestId": "cea-a-1929",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1929",
+          "standard": "CEA-2010-A",
+          "testMode": "Standard",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1930",
+          "standard": "CEA-2010-A",
+          "testMode": "Extended",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1931",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PB12-NSD",
+      "brand": "SVS",
+      "model": "PB12-NSD",
+      "suggestedTestId": "cea-a-1938",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1938",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1939",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1940",
+          "standard": "CEA-2010-A",
+          "testMode": "New",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1941",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1942",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PB13-Ultra",
+      "brand": "SVS",
+      "model": "PB13-Ultra",
+      "suggestedTestId": "cea-a-1948",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1948",
+          "standard": "CEA-2010-A",
+          "testMode": "20hz mode",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1949",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed mode",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1950",
+          "standard": "CEA-2010-A",
+          "testMode": "15hz mode",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1951",
+          "standard": "CEA-2010-A",
+          "testMode": "20hz mode",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1952",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed mode",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1953",
+          "standard": "CEA-2010-A",
+          "testMode": "15hz mode",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1954",
+          "standard": "CEA-2010-A",
+          "testMode": "20hz",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1955",
+          "standard": "CEA-2010-A",
+          "testMode": "10hz",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1956",
+          "standard": "CEA-2010-A",
+          "testMode": "15hz",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1957",
+          "standard": "CEA-2010-A",
+          "testMode": "sealed",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PB16-Ultra",
+      "brand": "SVS",
+      "model": "PB16-Ultra",
+      "suggestedTestId": "cea-a-1958",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1958",
+          "standard": "CEA-2010-A",
+          "testMode": "Sealed",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1959",
+          "standard": "CEA-2010-A",
+          "testMode": "Extended",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1960",
+          "standard": "CEA-2010-A",
+          "testMode": "Standard",
+          "source": "Audioholics",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||PC13-Ultra",
+      "brand": "SVS",
+      "model": "PC13-Ultra",
+      "suggestedTestId": "cea-a-1967",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-1967",
+          "standard": "CEA-2010-A",
+          "testMode": "20hz mode, ports open",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1968",
+          "standard": "CEA-2010-A",
+          "testMode": "All ports plugged",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||SB-1000 PRO",
+      "brand": "SVS",
+      "model": "SB-1000 PRO",
+      "suggestedTestId": "cea-a-1971",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1970",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cta-b-1970",
+          "standard": "CTA-2010-B",
+          "testMode": "原表测试模式",
+          "source": "Nuyes",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1971",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cta-b-1971",
+          "standard": "CTA-2010-B",
+          "testMode": "原表测试模式",
+          "source": "Nuyes",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||SB12-NSD",
+      "brand": "SVS",
+      "model": "SB12-NSD",
+      "suggestedTestId": "cea-a-1976",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1976",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1977",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||SB13-Ultra",
+      "brand": "SVS",
+      "model": "SB13-Ultra",
+      "suggestedTestId": "cea-a-1980",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1980",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1981",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "SVS||SB16-Ultra",
+      "brand": "SVS",
+      "model": "SB16-Ultra",
+      "suggestedTestId": "cea-a-1983",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-1982",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-1983",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "THIEL Audio||SmartSub 1.12",
+      "brand": "THIEL Audio",
+      "model": "SmartSub 1.12",
+      "suggestedTestId": "cea-a-2027",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-2027",
+          "standard": "CEA-2010-A",
+          "testMode": "Music mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2028",
+          "standard": "CEA-2010-A",
+          "testMode": "Movie mode",
+          "source": "Brent Butterworth",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Velodyne Acoustics||DD-15+",
+      "brand": "Velodyne Acoustics",
+      "model": "DD-15+",
+      "suggestedTestId": "cea-a-2097",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-2097",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2098",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Velodyne Acoustics||DD-18+",
+      "brand": "Velodyne Acoustics",
+      "model": "DD-18+",
+      "suggestedTestId": "cea-a-2100",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-2100",
+          "standard": "CEA-2010-A",
+          "testMode": "Servo Gain 1",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2101",
+          "standard": "CEA-2010-A",
+          "testMode": "Servo Gain 8",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2102",
+          "standard": "CEA-2010-A",
+          "testMode": "Servo Gain 8 (maximum)",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2103",
+          "standard": "CEA-2010-A",
+          "testMode": "Servo Gain 1 (minimum)",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "Velodyne Acoustics||EQ-Max15",
+      "brand": "Velodyne Acoustics",
+      "model": "EQ-Max15",
+      "suggestedTestId": "cea-a-2108",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-2108",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2109",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "WW Speaker Cabinets||X21 - B&C 21DS115-4",
+      "brand": "WW Speaker Cabinets",
+      "model": "X21 - B&C 21DS115-4",
+      "suggestedTestId": "cea-a-2164",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-2164",
+          "standard": "CEA-2010-A",
+          "testMode": "K20 1 Vent Open / K20-DSP Bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2165",
+          "standard": "CEA-2010-A",
+          "testMode": "iNuke 1 Vent Blocked / Bridged NU3000DSP",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2166",
+          "standard": "CEA-2010-A",
+          "testMode": "K20 Both Vents Open / K20-DSP Bridged",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2167",
+          "standard": "CEA-2010-A",
+          "testMode": "iNuke Both Vents Open / NU-3000DSP",
+          "source": "Data-bass",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "XTZ Sound||99 W12S",
+      "brand": "XTZ Sound",
+      "model": "99 W12S",
+      "suggestedTestId": "cea-a-2168",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在不同测试模式或硬件配置，默认值需人工确认",
+      "tests": [
+        {
+          "testId": "cea-a-2168",
+          "standard": "CEA-2010-A",
+          "testMode": "ME",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2169",
+          "standard": "CEA-2010-A",
+          "testMode": "MO",
+          "source": "Ilkka Rissanen",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "modelKey": "XTZ Sound||SUB 3X12",
+      "brand": "XTZ Sound",
+      "model": "SUB 3X12",
+      "suggestedTestId": "cea-a-2176",
+      "currentPrimaryTestId": null,
+      "requiresReview": true,
+      "reason": "同型号存在多条同模式记录，建议值只供人工复核，不自动成为客户主记录",
+      "tests": [
+        {
+          "testId": "cea-a-2176",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Audioholics",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2177",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "Data-bass",
+          "pointCount": 6
+        },
+        {
+          "testId": "cea-a-2178",
+          "standard": "CEA-2010-A",
+          "testMode": "标准测试",
+          "source": "See tab \"Others\"",
+          "pointCount": 6
+        }
+      ]
+    }
+  ]
+}
